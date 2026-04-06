@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wallpaper {
+    display: block;
+
+    width: 100%;
+    z-index: -1;
+
+    position: fixed;
+}
+
+.penguins {
+    display: block;
+}
+
+.wallpaper>img, .penguins>img {
+    width: 100%;
+}
