@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #0b5394;
-    padding-inline: 6em;
+    background-color: black;
+    padding-inline: 12em;
 }
 
 .navbar {
@@ -26,4 +26,58 @@ body {
 
 .navbar>ul>a {
     padding-inline: 0.3em;
+}
+
+.main {
+    background-color: white;
+    margin-top: 2em;
+    border-radius: 0 5em 0 5em;
+}
+
+.main > .holder {
+    padding: 4em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.items-holder {
+    display: flex;
+    gap: 1em;
+
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 0.4em;
+
+    padding: 1em 1.3em 1em 1em;
+
+    overflow: hidden;
+}
+
+.image > img {
+    border-radius: 1em;
+    width: 100%;
+}
+
+.text {
+    margin-left: 1em;
+    max-width: 700px;
+}
+
+.text > h1 {
+    font-size: 3em;
+    font-family: Cal Sans;
+}
+
+.text > p {
+    font-size: 1.2em;
+    font-family: Roboto;
+    font-weight: 300;
 }
