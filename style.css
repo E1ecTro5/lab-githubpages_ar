@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    font-family: Cal Sans;
 }
 
 body {
@@ -17,7 +19,6 @@ body {
 
 .navbar>a, .navbar>ul>a {
     font-size: 2em;
-    font-family: Cal Sans;
     font-weight: 600;
 
     color: white;
@@ -73,11 +74,16 @@ body {
 
 .text > h1 {
     font-size: 3em;
-    font-family: Cal Sans;
 }
 
 .text > p {
     font-size: 1.2em;
     font-family: Roboto;
     font-weight: 300;
+}
+
+.footer {
+    padding: 2em;
+    text-align: center;
+    color: rgb(136, 136, 136);
 }
