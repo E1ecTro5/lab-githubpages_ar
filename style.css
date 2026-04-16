@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Cal Sans;
+}
+
+body {
+    background-color: black;
+    padding-inline: 12em;
+}
+
+.navbar {
+    padding-top: 2em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar>a, .navbar>ul>a {
+    font-size: 2em;
+    font-weight: 600;
+
+    color: white;
+    text-decoration: none;
+}
+
+.navbar>ul>a {
+    padding-inline: 0.3em;
+}
+
+.main {
+    background-color: white;
+    margin-top: 2em;
+    border-radius: 0 5em 0 5em;
+}
+
+.main > .holder {
+    padding: 4em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.items-holder {
+    display: flex;
+    gap: 1em;
+
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 0.4em;
+
+    padding: 1em 1.3em 1em 1em;
+
+    overflow: hidden;
+}
+
+.image > img {
+    border-radius: 1em;
+    width: 100%;
+}
+
+.text {
+    margin-left: 1em;
+    max-width: 700px;
+}
+
+.text > h1 {
+    font-size: 3em;
+}
+
+.text > p {
+    font-size: 1.2em;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.footer {
+    padding: 2em;
+    text-align: center;
+    color: rgb(136, 136, 136);
+}
+
+.error {
+    color: white;
+    text-align: center;
+
+    margin-top: 10em;
+
+    font-size: 2em;
+}
+
+.error > a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.error > a:hover {
+    color: aliceblue;
+}
