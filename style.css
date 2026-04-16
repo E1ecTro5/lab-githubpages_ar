@@ -87,3 +87,21 @@ body {
     text-align: center;
     color: rgb(136, 136, 136);
 }
+
+.error {
+    color: white;
+    text-align: center;
+
+    margin-top: 10em;
+
+    font-size: 2em;
+}
+
+.error > a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.error > a:hover {
+    color: aliceblue;
+}
